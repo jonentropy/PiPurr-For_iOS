@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -25,11 +24,11 @@
                             <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="jGY-PU-Epe">
                                 <rect key="frame" x="177" y="324" width="20" height="20"/>
                             </activityIndicatorView>
-                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BQD-8q-nAw">
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BQD-8q-nAw">
                                 <rect key="frame" x="0.0" y="50" width="375" height="617"/>
                             </imageView>
                             <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="rqR-Vz-HIE">
-                                <rect key="frame" x="-8" y="20" width="375" height="30"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="30"/>
                                 <subviews>
                                     <button autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eQ8-5k-qYH">
                                         <rect key="frame" x="0.0" y="0.0" width="64.5" height="30"/>
@@ -83,14 +82,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.17201667746113991" green="0.17201667746113991" blue="0.17201667746113991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BQD-8q-nAw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1ig-SG-4pO"/>
                             <constraint firstItem="jGY-PU-Epe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2fZ-PF-n7r"/>
-                            <constraint firstItem="rqR-Vz-HIE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="SwI-27-BAP"/>
+                            <constraint firstItem="rqR-Vz-HIE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NXh-eq-jQK"/>
                             <constraint firstItem="BQD-8q-nAw" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="TIJ-TF-gIT"/>
                             <constraint firstItem="jGY-PU-Epe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bDZ-Rh-rp2"/>
                             <constraint firstItem="rqR-Vz-HIE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hhd-PC-fKA"/>
                             <constraint firstItem="BQD-8q-nAw" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="kW4-ba-ZYT"/>
-                            <constraint firstItem="rqR-Vz-HIE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-24" id="wV3-OO-JZa"/>
+                            <constraint firstItem="rqR-Vz-HIE" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="xdK-PX-Nux"/>
                             <constraint firstItem="BQD-8q-nAw" firstAttribute="top" secondItem="rqR-Vz-HIE" secondAttribute="bottom" id="zol-ca-ecE"/>
                         </constraints>
                     </view>
